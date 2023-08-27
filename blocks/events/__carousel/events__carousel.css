@@ -1,0 +1,18 @@
+.events__carousel{
+    display: none;
+}
+
+
+@media screen and (max-width: 740px){
+    .events__carousel{
+        position: relative;
+        width: calc(344/375*100%);
+        overflow: hidden;
+        margin-left: calc(16/375*100%);
+        width: 100%;
+        max-width: 344px;
+        display: block;
+        margin: 47px auto 0
+    }
+    
+}

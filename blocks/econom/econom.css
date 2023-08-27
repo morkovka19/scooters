@@ -1,0 +1,20 @@
+.econom{
+    max-width: 987px;
+    width: calc(1100/1440*100%);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: calc(167/1440*100%);
+    gap: 80px;  
+}
+
+
+@media screen and (max-width: 1439px){
+    .econom{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    
+}

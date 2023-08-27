@@ -1,0 +1,23 @@
+.header__text{
+    color: #21201F;
+    font-family: YS Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 48px;
+    max-width: 420px;
+}
+
+@media screen and (max-width: 740px){
+    .header__text{
+        color: #21201F;
+    
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; /* 23.4px */
+        margin-top: 31px;
+    }
+    
+}

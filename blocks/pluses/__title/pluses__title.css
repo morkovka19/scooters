@@ -1,0 +1,32 @@
+.pluses__title{
+    color: #21201F;
+    font-family: YS Text;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -1.12px;
+    width: calc(827/1440*100%);
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1439px){
+    .pluses__title{
+    margin-left: calc(262/1440*100%)
+    }
+}
+
+@media screen and (max-width: 740px){
+    .pluses__title{
+        color: #21201F;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%; /* 32px */
+        letter-spacing: -0.64px;
+        width: calc(311/375*100%);
+        margin-left: calc(32/375*100%);
+    }
+    
+}

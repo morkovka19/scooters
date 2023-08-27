@@ -1,0 +1,15 @@
+.pluses__card{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1439px){
+    .pluses__card{
+        display: flex;
+        gap: 16px;
+        width: 100%;
+        align-items: center;
+    }
+    
+}

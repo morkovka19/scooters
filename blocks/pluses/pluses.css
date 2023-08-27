@@ -1,0 +1,15 @@
+.pluses{
+    margin: 0 auto;
+    padding: 0;
+    width: calc(874/1440*100%);
+    padding-bottom: 128px;
+}
+
+@media screen and (max-width: 1439px){
+
+    .pluses{
+        width: 100%;
+        padding-bottom: 72px;
+    }
+    
+}

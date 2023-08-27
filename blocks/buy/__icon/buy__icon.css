@@ -1,0 +1,5 @@
+.buy__icon{
+    position: absolute;
+    right: calc(600/900*100%);
+    top: 230px;
+}

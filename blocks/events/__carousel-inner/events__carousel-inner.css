@@ -1,0 +1,5 @@
+.events__carousel-inner{
+    display: flex;
+    width: 400%;
+    transition: transform .5s;
+}

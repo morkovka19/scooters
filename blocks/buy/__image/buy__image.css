@@ -1,0 +1,7 @@
+.buy__image{
+    position: absolute;
+    transform: rotate(-8.008deg);
+    right: calc(300/900*100%);
+    top: 100px;
+    z-index: 0;
+}

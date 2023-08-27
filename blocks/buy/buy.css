@@ -1,0 +1,15 @@
+.buy{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    column-gap: 54px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1439px){
+    .buy{
+        flex-direction: column;
+    }
+    
+}

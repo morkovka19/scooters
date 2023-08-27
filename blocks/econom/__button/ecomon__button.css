@@ -1,0 +1,30 @@
+.econom__button{
+    margin: 0;
+    padding: 0;
+    color: #21201F;
+    font-family: YS Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 91.667% */
+    border-radius: 36px;
+    background: #FFDE40;
+    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+    border: none;
+    height: 65px;
+    width: 281px;
+    text-align: center;
+}
+
+@media screen and (max-width: 740px){
+    .econom__button{
+        height: 49px;
+        color: #21201F;
+        font-family: YS Text;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px; /* 122.222% */
+    }
+    
+}

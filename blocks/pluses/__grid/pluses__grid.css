@@ -1,0 +1,28 @@
+.pluses__grid{
+    margin: 0;
+    padding: 0;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 362px 400px;
+    column-gap: 112px;
+    row-gap: 61px;
+}
+
+
+@media screen and (max-width: 1439px){
+    .pluses__grid{
+    margin-left: calc(262/1440*100%);
+    grid-template-columns: 1fr;
+    width: calc(250/375*100%);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .pluses__grid{
+        margin-top: 32px;
+        width: calc(311/375*100%);
+        margin-left: calc(32/375*100%);
+        row-gap: 24px;
+    }
+    
+}

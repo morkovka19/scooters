@@ -1,0 +1,22 @@
+.header__title{
+    color: #21201F;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -1.44px;
+    margin-top: 72px;
+    max-width: 420px;
+}
+
+@media screen and (max-width: 740px){
+    .header__title{
+        color: #21201F;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%; /* 36px */
+        letter-spacing: -0.72px;
+        margin-top: 32px;
+    }
+}

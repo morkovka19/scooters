@@ -1,0 +1,11 @@
+.buy__block-image{
+    position: relative;
+    width: calc(500/916*100%);
+}
+
+@media screen and (max-width: 1439px){
+    .buy__block-image{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,22 @@
+.econom__purple{
+    width: 412.783px;
+    height: 369.042px;
+    transform: rotate(-140.03deg);
+    border-radius: 412.783px;
+    opacity: 0.29;
+    background: #8241EF;
+    filter: blur(100px);
+    position: absolute;
+    top: 150px;
+}
+
+@media screen and (max-width: 1439px){
+    .econom__purple{
+        width: 215.685px;
+        height: 192.829px;
+        filter: blur(52.25131607055664px);
+        top: 80px;
+        left: calc(80/375*100%);
+    }
+    
+}

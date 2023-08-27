@@ -1,0 +1,13 @@
+.buy__purple{
+    width: 412.783px;
+    height: 369.042px;
+    transform: rotate(-140.03deg);
+    flex-shrink: 0;
+    border-radius: 412.783px;
+    opacity: 0.29;
+    background: #8241EF;
+    filter: blur(100px);
+    position: absolute;
+    top: 150px;
+
+}

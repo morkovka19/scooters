@@ -1,0 +1,25 @@
+.events__grid{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(2,1fr);
+    transform: skew(-2deg, -25deg);
+    
+}
+
+@media screen and (max-width: 1439px){
+    .events__grid{
+        transform: skew(0, 0);
+        margin-top: 32px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 740px){
+    .events__grid{
+        display: none;
+    }
+    
+}

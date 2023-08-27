@@ -1,0 +1,10 @@
+.events__icon{
+    position: absolute;
+}
+
+@media screen and (max-width: 1439px){
+    .events__icon{
+        display: none;
+    }
+    
+}

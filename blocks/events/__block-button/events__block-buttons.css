@@ -1,0 +1,16 @@
+.events__block-buttons{
+    display: none;
+}
+
+@media screen and (max-width: 740px){
+    .events__block-buttons{
+        margin: 0 auto;
+        width: calc(108/375*100%);
+        display: flex;
+        gap: 12px;
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    
+}

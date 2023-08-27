@@ -1,0 +1,13 @@
+.econom__block-image{
+    position: relative;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1439px){
+
+    .econom__block-image{
+        height: 100px;
+        margin: 0;
+    }
+    
+}

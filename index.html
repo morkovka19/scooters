@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Scooters</title>
+</head>
+
+<body class="root">
+    <header class="header">
+        <div class="header__background"></div>
+        <div class="header__block-info">
+            <img class="header__logo" src="./images/icons/logo.svg" alt="логотип">
+            <h1 class="header__title">Вступайте в клуб Самокатов</h1>
+            <p class="header__text">Купите абонемент, чтобы стать частью клуба в новом сезоне–2024. 8 месяцев за 499 ₽
+            </p>
+            <button class="header__button" type="button">Стать частью клуба</button>
+        </div>
+        <div class="header__block-image">
+            <div class="header__purple"></div>
+            <img src="./images/scooter.png" alt="самокат" class="header__image">
+            <img src="./images/icons/header__round.svg" class="header__round">
+        </div>
+    </header>
+    <main class="main">
+        <section class="pluses">
+            <h2 class="pluses__title">Вот что даёт участие в клубе</h2>
+            <ul class="pluses__grid">
+                <li class="pluses__card">
+                    <img class="pluses__icon" src="./images/icons/0-rub.svg" alt="0 рублей">
+                    <p class="pluses__text">0 ₽ за старт в каждой поездке</p>
+                </li>
+                <li class="pluses__card">
+                    <img class="pluses__icon" src="./images/icons/scooter.svg" alt="самокат">
+                    <p class="pluses__text">Катаетесь с друзьями? Бронируйте до трёх самокатов с аккаунта с абонементом
+                        — так у всех будет бесплатный старт</p>
+                </li>
+                <li class="pluses__card">
+                    <img class="pluses__icon" src="./images/icons/clock.svg" alt="часы">
+                    <p class="pluses__text">Бесплатная пауза 15 минут в поездке — например, чтобы зайти за кофе или
+                        передохнуть</p>
+                </li>
+                <li class="pluses__card">
+                    <img class="pluses__icon" src="/images/icons/bat.svg" alt="батарея">
+                    <p class="pluses__text">Если самокат недостаточно заряжен или с ним неудобно переходить дорогу,
+                        замените по пути на другой — это бесплатно</p>
+                </li>
+            </ul>
+        </section>
+        <section class="events">
+            <h2 class="events__title">Эксклюзивный доступ к событиям Самокатов</h2>
+            <p class="events__text">С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч.
+                В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали
+                хор Attaque de Panique</p>
+            <ul class="events__grid">
+                <li class="events__card">
+                    <img class="events__image" src="./images/events-1.png" alt="фото события">
+                </li>
+                <li class="events__card">
+                    <img class="events__image" src="./images/events-2.png" alt="фото события">
+                </li>
+                <li class="events__card">
+                    <img class="events__image" src="./images/events-3.png" alt="фото события">
+                </li>
+                <li class="events__card">
+                    <img class="events__image" src="./images/events-4.png" alt="фото события">
+                </li>
+            </ul>
+            <div class="events__carousel">
+                <div class="events__carousel-inner">
+                    <div class="events__card" id="item-carousel">
+                        <img class="events__image" src="./images/events-1.png" alt="фото события" id=>
+                    </div>
+                    <div class="events__card" id="item-carousel">
+                        <img class="events__image" src="./images/events-2.png" alt="фото события">
+                    </div>
+                    <div class="events__card" id="item-carousel">
+                        <img class="events__image" src="./images/events-3.png" alt="фото события">
+                    </div>
+                    <div class="events__card" id="item-carousel">
+                        <img class="events__image" src="./images/events-4.png" alt="фото события">
+                    </div>
+                </div>
+            </div>
+            <div class="events__block-buttons">
+                <img class="events__button  events__button_position_left" src="./images/icons/events-button.svg" alt="стрелочка">
+                <img class="events__button events__button_active" src="./images/icons/events-button.svg" alt="стрелочка">
+            </div>
+            <img class="events__icon events__icon_position_capl" src="./images/icons/capl.svg" alt="капельки" >
+            <img class="events__icon events__icon_position_geo" src="./images/icons/geo.svg" alt="метка">
+            <img class="events__icon events__icon_position_coffe" src="./images/icons/coffee.svg" alt="кофе">
+        </section>
+        <section class="buy">
+            <div class="buy__info">
+                <h2 class="buy__title">Купить абонемент и вступить в клуб смогут те, кто в Плюсе</h2>
+                <p class="buy__text">За каждую поездку на самокатах такие пользователи получают кешбэк баллами. Баллы
+                    можно тратить на поездки на самокатах и такси с Яндекс Go, покупки и заказы в других сервисах
+                    Яндекса</p>
+            </div>
+            <div class="buy__block-image">
+                <div class="buy__purple"></div>
+                <img class="buy__image" src="./images/scooter-buy.png" alt="самокат">
+                <img class="buy__icon" src="./images/icons/plus.svg" alt="плюс">
+            </div>
+        </section>
+        <section class="econom">
+            <div class="econom__block-image">
+                <div class="econom__purple"></div>
+                <img class="econom__image" src="./images/icons/scooter-round.svg" alt="самокат">
+            </div>
+            <div class="econom__block-info">
+                <h2 class="ecomon__title">80 % наших пользователей уже в клубе и экономят на поездках</h2>
+                <p class="econom__text">Присоединяйтесь — опция начнёт действовать в начале сезона–2024. Об открытии
+                    сезона предупредим заранее, чтобы вы были готовы</p>
+                <button type="button" class="econom__button">Хочу абонемент</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__text">Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически
+            с момента старта сезона 2024 г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399
+            руб./мес. Сертификат на доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа
+            <a href="yandex.ru/legal/yandex_plus_conditions"
+                class="footer__link">yandex.ru/legal/scooters_seasonpass</a>. Доп.опция доступна пользователям с
+            активной подпиской (условия
+            подписки: <a href="yandex.ru/legal/yandex_plus_conditions"
+                class="footer__link">yandex.ru/legal/yandex_plus_conditions</a>), есть ограничения, подробнее:
+            <a href="yandex.ru/legal/yandex_plus_conditions"
+                class="footer__link">yandex.ru/legal/yandex_plus_opzii_list</a>. В случае отсутствия у пользователя
+            активной подписки на дату
+            активации доп.опции, пользователю предоставляется 7 дней подписки Яндекс Плюс бесплатно, далее автопродление
+            — 299 руб./мес. Электросамокаты Яндекс Go — сервис аренды электросамокатов на условиях: <a
+                href="yandex.ru/legal/yandex_plus_conditions" class="footer__link">clck.ru/gwDGn</a>. 0+
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>

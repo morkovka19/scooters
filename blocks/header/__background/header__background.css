@@ -1,0 +1,8 @@
+.header__background {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(90deg,  rgba(255, 92, 77, .22)0%, rgba(235, 70, 159, .22) 25%, rgba(131, 65, 239, .22) 72.00%,  rgba(63, 104, 249, .22) 100%);
+    z-index: -1;
+}

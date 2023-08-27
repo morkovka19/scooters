@@ -1,0 +1,20 @@
+.events__card{ 
+    transform: skew(2deg, 25deg);
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1439px){
+    .events__card{
+        transform: none;
+        flex: 1;
+        text-align: center;
+    }
+
+    .events__card img{
+        width: 100%;
+        max-height: 344px;
+        object-fit: cover;
+    }
+    
+}

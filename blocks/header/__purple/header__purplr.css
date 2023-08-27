@@ -1,0 +1,20 @@
+.header__purple{
+    width: 657.8px;
+    height: 401.903px;
+    transform: rotate(-140.03deg);
+    flex-shrink: 0;
+    border-radius: 657.8px;
+    opacity: 0.5;
+    background: #8241EF;
+    filter: blur(100px);
+    right: calc(200/900*100%);
+    position: absolute;
+    top: 150px;
+}
+
+@media screen and (max-width: 740px){
+    .header__purple{
+        display: none;
+    }
+    
+}

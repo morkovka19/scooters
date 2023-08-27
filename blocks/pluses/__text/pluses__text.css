@@ -1,0 +1,20 @@
+.pluses__text{
+    color: #21201F;
+    font-family: YS Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 740px){
+    .pluses__text{
+        color: #21201F;
+        font-family: YS Text;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 19.2px */
+    }
+    
+}

@@ -1,0 +1,21 @@
+.ecomon__title{
+    color: #21201F;
+    font-family: YS Text;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 48px */
+    letter-spacing: -0.96px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 740px){
+    .ecomon__title{
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%; /* 32px */
+        letter-spacing: -0.64px;
+    }
+}

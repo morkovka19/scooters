@@ -1,0 +1,15 @@
+.events__icon_position_capl{
+    top: 110px;
+    left: calc(710/916*100%);
+}
+
+@media screen and (max-width: 376px){
+    .events__icon_position_capl{
+        display: inline;
+        position: absolute;
+        width: 107.721px;
+        height: 139.418px;
+        top: 305px;
+        left: calc(265/375*100%);
+    }
+}

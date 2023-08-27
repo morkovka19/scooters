@@ -1,0 +1,16 @@
+.buy__info{
+    margin: 0;
+    padding: 0;
+    margin-top: 204px;
+    width: calc(407/1000*100%);
+    margin-left: calc(260/1440*100%);
+}
+
+@media screen and (max-width: 1439px){
+    .buy__info{
+        margin-top: 72px;
+        width: calc(311/375*100%);
+        margin-left: calc(32/375*100%);
+    }
+    
+}
